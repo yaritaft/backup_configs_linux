@@ -1,0 +1,2 @@
+paste keybindings and settings insde of /home/yari/.config/Code/User
+place extensions.json inside .vscode folder inside any project. Then do "code . " inside that project to receive suggestions to install extensions

@@ -1,0 +1,24 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "wayou.vscode-todo-highlight",
+    "dbaeumer.vscode-eslint",
+    "2gua.rainbow-brackets",
+    "esbenp.prettier-vscode",
+    "stringham.move-ts",
+    "eamodio.gitlens",
+    "NuclleaR.vscode-extension-auto-import",
+    "pmneo.tsimporter",
+    "sburg.vscode-javascript-booster",
+    "ebrithil30.vscode-ts-auto-return-type",
+    "Orta.vscode-jest",
+    "rtbenfield.vscode-jest-test-adapter",
+    "mariusalchimavicius.json-to-ts"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": ["ms-vscode.vscode-typescript-tslint-plugin", "GregorBiswanger.json2ts"]
+}
+

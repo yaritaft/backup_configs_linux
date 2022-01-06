@@ -1,0 +1,8 @@
+update shared-components without rebuilding nginx ( this does not work if add new paths)
+
+../downScript.sh && cd ui && npm run update-shared-components && cd .. && docker-compose -f docker-optional.web.yaml build pushkit && make start-all
+
+
+
+REBUILD PUSHKIT
+../downScript.sh && docker-compose -f docker-optional.web.yaml build pushkit && make start-all
